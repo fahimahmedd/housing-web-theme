@@ -1,0 +1,173 @@
+.about{
+    padding: 120px 0 200px 0;
+    .about_wrapper{
+        .about_left{
+            width: 100%;
+            display: flex;
+            justify-content: center ;
+             img{
+                max-height: 600px;
+                width: 100%;
+                object-fit: contain;
+                border-radius: 16px;
+             }
+        }
+        .about_right{
+            margin-top: -20px;
+            h2{
+                font-size: 85px;
+                font-weight: 500;
+                line-height: 140px;
+                color: #cbcbcb;
+                text-transform: uppercase;
+            }
+        }
+
+        .about_bottom_content{
+            padding: 40px 100px;
+            h2{
+                font-size: 50px;
+                color: $offwhiteColor;
+                font-weight: 600; 
+                text-align: center;
+                padding-bottom: 30px;
+                line-height: 64px;
+            }
+            p{
+                line-height: 26px;
+                color:#bfbfbf;
+                font-size: 16px;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+            }
+            .common_btn{
+                @include common-button;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+.mission{
+    padding: 60px 0 60px  0;
+    // background-color: $offwhiteColor;
+    .mission_wrapper{
+        margin-top: -200px;
+        .misson_card{
+            height: 270px;
+            width: 100%;
+            background-color: $offwhiteColor;
+            border-radius: 5px;
+            padding: 35px 20px 15px 20px;
+            box-shadow: rgba(0, 0, 0, 0.102) 0px 3px 8px;
+            text-align: center;
+            h4{
+                font-size: 24px;
+                color: $blackColor;
+                padding-bottom: 15px;
+            }
+            p{
+                font-size: 15px;
+                color: $textColor;
+                line-height: 24px;
+                font-family: 'Roboto', sans-serif;
+                @include text-ellips-6;
+            }
+        }
+    }
+}
+
+.member{
+    padding: 100px 0;
+
+    .member_wrapper{
+        .mamber_img{
+            display: flex;
+            justify-content: center;
+            img{
+                max-height: 500px;
+                width: auto;
+                max-width: 100%;
+                object-fit: contain;
+            }
+        }
+        .mamber_text{
+            padding-top: 10px;
+            p{
+                font-size: 15px;
+                color: #b9b9b9;
+                font-family: 'Roboto', sans-serif;
+
+                span{
+                    font-size: 26px;
+                }
+            }
+            h4{
+                font-size: 24px;
+                color: #fff;
+                padding: 12px 0 5px 0;
+            }
+            h5{
+                font-size: 16px;
+                color: #d5d5d5;
+                font-family: 'Roboto', sans-serif;
+                line-height: 16px;
+            }
+            h6{
+                font-size: 15px;
+                color: #d1d1d1;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+    .member_wrapper_item{
+        padding-top: 40px;
+        h4{
+            font-size: 30px;
+            color: $whiteColor;
+            text-align: center;
+            border-bottom: 1px solid $whiteColor;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .mamber_item{
+            height: 400px;
+            width: 100%;
+            border: 1px solid #f3f3f324;
+            background-color: #dbd9d94f;
+            border-radius: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 30px;
+            .maber_item_img{
+                height: 220px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+            h4{
+                font-size: 20px;
+                line-height: 30px;
+                color: #fff;
+                padding: 20px 0 5px 0;
+                font-family: 'Roboto', sans-serif;
+            }
+            h5{
+                font-size: 15px;
+                color: #d5d5d5;
+                font-family: 'Roboto', sans-serif;
+                line-height: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,297 @@
+@media (min-width: 280px) and (max-width: 991.98px) {
+  .header .header_wrapper .hamburger_btn span {
+    display: none;
+  }
+  .header .header_wrapper .logo {
+    margin-left: 10px;
+  }
+  .header .header_wrapper .logo img {
+    max-height: 60px;
+  }
+  .header .header_wrapper .hamburger_btn {
+    margin-left: 10px;
+  }
+  .header_wrapper .text-center {
+    text-align: start !important;
+  }
+  .album .album_wrapper .album_item {
+    height: 260px;
+}
+  .hero .hero_slider {
+    height: 60vh;
+  }
+  .hero .hero_slider h2 {
+    font-size: 28px;
+    padding-bottom: 80px;
+    line-height: 38px;
+  }
+  .hero .swiper-slide-active .hero_slider {
+    transform: scale(1);
+  }
+  .about .about_wrapper .about_left img {
+    max-height: 400px;
+  }
+  .common_hero .swiper-slide-active .hero_slider {
+    transform: scale(1);
+  }
+  .offcanvas .offcanvas-body ul li a {
+    font-size: 24px;
+  }
+  .offcanvas .offcanvas-body .offcan_bottom {
+    padding-top: 50px;
+  }
+  .about {
+    padding: 60px 0 100px 0;
+  }
+  .about .about_wrapper .about_right h2 {
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .common_section .common_section_wrapper .extra-content h5 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .about .about_wrapper .about_right {
+    padding-top: 50px;
+  }
+  .about .about_wrapper .about_bottom_content h2 {
+    font-size: 24px;
+    color: #e8e8e8;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+    line-height: 34px;
+  }
+  .about .about_wrapper .about_bottom_content {
+    padding: 20px 0px;
+  }
+  .gallery_slider {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .amenities {
+    padding: 60px 0 0 0;
+  }
+  .sec_header h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  .video_section .video_wrapper {
+    margin-top: 70px;
+  }
+  .gallery_slider .swiper-button-next {
+    height: 50px;
+    width: 50px;
+  }
+  .gallery_slider .swiper-button-prev {
+    height: 50px;
+    width: 50px;
+  }
+  .gallery_slider .swiper-slide {
+    width: 80%;
+    max-width: 300px;
+    height: 300px;
+  }
+  .common_section .common_section_wrapper h4 {
+    font-size: 38px;
+    line-height: 52px;
+    margin: 20px 0;
+    word-wrap: break-word;
+  }
+  .common_section .common_section_wrapper p {
+    padding: 0 0px;
+  }
+  .amenities_slider {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .amenities_slider .swiper-slide {
+    width: 40%;
+    height: 340px;
+  }
+  .amenities_slider .amenities_slider_item .amenities_overly {
+    padding: 30px;
+}
+  .video_section {
+    padding: 0px 0;
+  }
+  .common_section_two h4 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .common_section_two_wrapper {
+    padding-top: 30px;
+  }
+  .common_section_text {
+    padding-top: 25px;
+  }
+  .common_section_two_wrapper .common_section_text ul li a {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .common_section_two_wrapper .common_section_text h2 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  .footer .fotter_main .footer_wrapper .footer_wrap .footer_logo {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .fotter_main .footer_wrapper {
+    padding: 60px 0 40px 0;
+  }
+  .footer .fotter_main .footer_bottom {
+    padding: 20px 0;
+    display: list-item;
+    list-style: none;
+    text-align: center;
+  }
+  .common_hero .hero_slider {
+    height: 220px;
+  }
+  .common_hero .page_name {
+    bottom: 30px;
+    font-size: 26px;
+  }
+  .mission .mission_wrapper {
+    margin-top: -100px;
+  }
+  .mission .mission_wrapper .misson_card {
+    height: 270px;
+    margin-bottom: 25px;
+  }
+  .member {
+    padding: 40px 0;
+  }
+  .member .member_wrapper .mamber_text {
+    text-align: center;
+  }
+  .member .member_wrapper_item .mamber_item {
+    height: auto;
+    padding-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto 20px;
+  }
+  .project_details .project_details_wrapper table {
+    overflow-y: scroll;
+  }
+  .booking_form .booking_form_wrapper h4 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .booking_form .booking_form_wrapper .online_booking_form .form-select {
+    margin-top: 20px;
+  }
+  .offcanvas .offcanvas-body ul .dropdown .dropdown-toggle {
+    font-size: 24px;
+  }
+  .project_details .project_details_wrapper td {
+    min-width: 240px;
+  }
+  .project h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .project_details .project_details_wrapper {
+    padding: 22px 16px 16px 16px;
+    border-radius: 12px;
+    background-color: rgba(227, 227, 228, 0.231372549);
+    border: 1px solid rgba(195, 195, 195, 0.1725490196);
+  }
+  .project {
+    padding: 60px 0;
+  }
+  .contact_wrapper {
+    max-width: 100%;
+    padding: 40px 20px;
+  }
+  .contact_wrapper .contect_info ul {
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+  .project .project_feature .project_feature_wrap {
+    max-width: 380px;
+    height: auto;
+  }
+  .project
+    .project_feature
+    .project_feature_wrap
+    .feature_img
+    .feature_img_overly {
+    height: 100%;
+  }
+  .project
+    .project_feature
+    .project_feature_wrap
+    .feature_img
+    .feature_img_overly
+    a {
+    display: block;
+  }
+  .project_details_wrapper {
+    margin-bottom: 20px;
+  }
+  .project_details .project_details_wrapper .details_text ul {
+    padding-left: 10px;
+  }
+  .booking_form .booking_form_wrapper .application-form-iframe {
+    height: 300px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 339.98px) {
+    .hero .hero_slider h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .header .header_wrapper .logo img {
+        max-height: 55px;
+        max-width: 150px;
+    }
+    .header .header_wrapper {
+        padding: 10px 0;
+    }
+    .header .header_wrapper .hamburger_btn i {
+        font-size: 20px;
+        padding: 6px 10px;
+        margin-right: 4px;
+    }
+    .about .about_wrapper .about_right h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .about .about_wrapper .about_bottom_content h2 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 34px;
+    }
+    .common_section .common_section_wrapper h4 {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 12px 0;
+    }
+    .common_section .common_section_wrapper .extra-content h5 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .project h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .offcanvas .offcanvas-body ul .dropdown .dropdown-menu {
+        left: 100px !important;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 991.98px) {
+    .header_wrapper .text-center {
+        text-align: center !important;
+    }
+}

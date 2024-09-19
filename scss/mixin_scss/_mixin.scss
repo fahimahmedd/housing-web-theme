@@ -1,0 +1,68 @@
+
+@mixin text-ellips {
+    display: block; /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: 1; /* Fallback for non-webkit */
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  @mixin text-ellips-2 {
+    display: block; /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: 2; /* Fallback for non-webkit */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  @mixin text-ellips-3 {
+    display: block; /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: 3; /* Fallback for non-webkit */
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  @mixin text-ellips-4 {
+    display: block; /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: 4; /* Fallback for non-webkit */
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  @mixin text-ellips-6 {
+    display: block; /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: 6; /* Fallback for non-webkit */
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  @mixin common-button {
+    padding: 4px 25px;
+    border-radius: 35px;
+    background-color: $primaryColor;
+    font-size: 13px;
+    color: $blackColor;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    &:hover{
+     background-color: #f0f0f0;
+     color: $blackColor;
+    }
+  }

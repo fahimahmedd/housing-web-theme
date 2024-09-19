@@ -1,0 +1,97 @@
+.booking_form{
+    padding: 60px 0 60px 0;
+    .booking_form_wrapper{
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: #f3f3f35d;
+        border-radius: 26px;
+        padding: 20px;
+        .application-form-iframe{
+            width: 100%;
+            height: 1000px;
+            margin-top: 30px;
+        }
+        h4{
+            font-size: 30px;
+            color: #fff;
+            font-weight: 500;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .online_booking_form{
+            padding-top: 20px;
+            h5{
+                font-size: 20px;
+                font-weight: 500;
+                color: $whiteColor;
+                padding: 20px 0 10px 0;
+              }
+            .massage {
+              height: 120px !important;
+            }
+            .form-floating {
+              margin-bottom: 18px;
+              .form-control {
+                border-radius: 8px;
+                height: 60px;
+                padding: 20px 10px 5px 15px;
+                font-size: 15px;
+                border: 1px solid #c7c6c6;
+                font-family: 'Roboto', sans-serif;
+                &:focus {
+                  outline: 0;
+                  box-shadow: none;
+                  border-color: #c3c3c3;
+                }
+              }
+              label {
+                font-size: 16px;
+                padding: 15px 10px 10px 15px;
+                color: #080808;
+                font-weight: 400;
+                font-family: "Roboto", sans-serif;
+              }
+              .textarea-control {
+                padding: 30px 10px 5px 15px;
+              }
+            }
+            .form-select {
+              height: 60px;
+              border-radius: 8px;
+              font-family: "Roboto", sans-serif;
+              &:focus {
+                box-shadow: none;
+              }
+            }
+            .submit-btn {
+              margin-top: 20px;
+              padding: 10px 35px;
+              background-color: $primaryColor;
+              color: $whiteColor;
+              font-size: 16px;
+              border-radius: 5px;
+              &:hover{
+                background-color: $secondaryColor;
+              }
+            }
+        }
+
+        .download_wrapper{
+            padding-top: 10px;
+            a{
+                padding: 10px 10px;
+                background-color: $primaryColor;
+                color: $whiteColor;
+                font-size: 15px;
+                width: 100%;
+                border-radius: 8px;
+                margin-top: 15px;
+                cursor: pointer;
+                &:hover{
+                    background-color: $secondaryColor;
+                }
+            }
+        }
+    } 
+}

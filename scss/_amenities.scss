@@ -1,0 +1,88 @@
+.amenities{
+    padding: 150px 0 0 0 ;
+}
+
+.amenities_slider{
+    position: relative;
+    margin-top: 50px;
+    padding: 0 20px;
+    .amenities_slider_item{
+        height: 450px;
+        width: 100%;
+        border: 1px solid #d2d1d155;
+        position: relative;
+        border-radius: 16px;
+        overflow: hidden;
+        margin-bottom: 24px;
+        cursor: pointer;
+        // &::after{
+        //     position: absolute;
+        //     content: '';
+        //     height: 100%;
+        //     width: 100%;
+        //     top: 0;
+        //     left: 0;
+        //     background-color: rgba(0,0,0,0.2);
+        // }
+        // &:hover img{
+        //     transform: scale(1.1);
+        //     transition: all 0.8s ease-in-out;
+        // }
+        // &:hover .amenities_overly{
+        //     height: 100%;
+        //     width: 100%;
+        //     border-radius: 0px;
+        //     transition: all 0.8s ease-in-out;
+        //     background: rgba(0,0,0,0.4);
+        //     opacity: 1;
+        // }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .amenities_overly{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            // background-color: rgba(0,0,0,0.3);
+            height: 100%;
+            width: 100%;
+            background: #0b0b0b84;
+            // border-radius: 50%;
+            padding: 50px;
+            z-index: 2;
+
+            ul{
+                li{
+                    border-bottom: 1px dashed #f5f5f575;
+                    margin-bottom: 12px;
+                    font-size: 16px;
+                    color: #f5f5f5;
+                    padding-bottom: 8px;
+                    // font-family: 'Roboto', sans-serif;
+                    list-style: square;
+                    &:hover{
+                        padding-left: 12px;
+                        transition: all 0.2s ease-in-out;
+                    }
+                }
+            }
+        }
+        .amenities_overly_content{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            z-index: 2;
+            h4{
+                font-size: 26px;
+                color: #fff;
+                line-height: 36px;
+            }
+        }
+    }
+}
+
